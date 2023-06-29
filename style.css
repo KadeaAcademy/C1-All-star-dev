@@ -68,6 +68,10 @@ nav ul {
   background-position: center;
   /* max-height: 85vh; */
   text-align: center;
+}
+
+.hero-section-overlay {
+  background-color: rgba(1, 1, 1, 0.6);
   padding: 5% 10%;
 }
 
