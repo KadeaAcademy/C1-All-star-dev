@@ -119,6 +119,9 @@ button {
 }
 
 @media screen and (max-width: 1024px) {
+  .logo-container {
+    width: 25%;
+  }
   nav ul {
     display: none;
   }
@@ -131,5 +134,15 @@ button {
   }
   .button-container {
     flex-direction: column;
+  }
+
+  .button-container button {
+    font-size: 3rem;
+  }
+}
+
+@media screen and (max-width: 415px) {
+  .logo-container {
+    width: 45%;
   }
 }
