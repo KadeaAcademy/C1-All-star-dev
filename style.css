@@ -129,4 +129,7 @@ button {
   html {
     font-size: 6px;
   }
+  .button-container {
+    flex-direction: column;
+  }
 }
