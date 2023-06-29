@@ -66,16 +66,16 @@ nav ul {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  height: 85vh;
+  /* max-height: 85vh; */
   text-align: center;
-  padding: 5rem 2rem;
+  padding: 5% 10%;
 }
 
 .hero-section__title {
   font-size: 8rem;
 }
 
-span {
+.hero-section span {
   color: var(--primary-color);
 }
 
@@ -112,4 +112,21 @@ button {
   font-size: 2.25rem;
   width: 81.4%;
   margin: 0 auto;
+}
+
+.large-screen-display-none {
+  display: none;
+}
+
+@media screen and (max-width: 1024px) {
+  nav ul {
+    display: none;
+  }
+  .large-screen-display-none {
+    display: block;
+  }
+
+  html {
+    font-size: 6px;
+  }
 }
